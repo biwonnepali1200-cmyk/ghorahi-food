@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff5722;
+    color: white;
+    padding: 7px 10px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.search-container input {
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+
+.quantity button {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.cart-section {
+    padding: 20px;
+    border-top: 2px solid #ccc;
+}
